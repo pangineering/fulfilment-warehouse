@@ -1,8 +1,12 @@
 import React from 'react'
+import {Container} from 'react-bootstrap'
+
 
 function HomeScreen() {
   return (
-    <div><h1>Dashboard</h1></div>
+    <Container fluid>
+        <h1>Dashboard</h1>
+    </Container>
   )
 }
 

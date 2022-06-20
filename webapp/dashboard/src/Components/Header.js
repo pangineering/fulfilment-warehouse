@@ -11,6 +11,8 @@ function Header() {
         <Navbar.Brand>Warehouse Manager</Navbar.Brand>
         <Nav className="me-auto">
           <Nav.Link><Link to="/">Home</Link></Nav.Link>
+          <Nav.Link><Link to="/clients">Clients</Link></Nav.Link>
+          <Nav.Link><Link to="/shops">Shops</Link></Nav.Link>
         </Nav>
       </Container>
     </Navbar>
